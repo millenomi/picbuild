@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>version</key>
+	<integer>0</integer>
+	<key>imageFactories</key>
+	<array>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+			<key>name</key>
+			<string>{BASE_NAME} (Full-size).png</string>
+		</dict>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+			<key>name</key>
+			<string>iTunesArtwork</string>
+			<key>type</key>
+			<string>public.png</string>
+		</dict>
+		<dict>
+			<key>width</key>
+			<integer>72</integer>
+			<key>height</key>
+			<integer>72</integer>
+			<key>name</key>
+			<string>Icon-72.png</string>
+		</dict>
+		<dict>
+			<key>width</key>
+			<integer>114</integer>
+			<key>height</key>
+			<integer>114</integer>
+			<key>name</key>
+			<string>Icon@2x.png</string>
+		</dict>
+		<dict>
+			<key>width</key>
+			<integer>57</integer>
+			<key>height</key>
+			<integer>57</integer>
+			<key>name</key>
+			<string>Icon.png</string>
+		</dict>
+	</array>
+</dict>
+</plist>

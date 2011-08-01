@@ -74,7 +74,8 @@ int main (int argc, const char * argv[])
 
     // ----- check out paths
     
-    NSString* bundlePath = [fm stringWithFileSystemRepresentation:argv[1] length:strlen(argv[1])];
+    NSString* projectPath = [fm stringWithFileSystemRepresentation:argv[1] length:strlen(argv[1])];
+    NSString* bundlePath = [projectPath stringByDeletingLastPathComponent];
     NSString* outputPath = [fm stringWithFileSystemRepresentation:argv[2] length:strlen(argv[2])];
     BOOL isDir;
     BOOL exists = [fm fileExistsAtPath:outputPath isDirectory:&isDir];
@@ -90,7 +91,6 @@ int main (int argc, const char * argv[])
 
     // ----- pick up the project
 
-    NSString* projectPath = [bundlePath stringByAppendingPathComponent:@"Build.plist"];
     NSDictionary* projectPlist = [NSDictionary dictionaryWithContentsOfFile:projectPath];
     if (!projectPlist)
         ILError("Could not read the picbuild project from path %s", [projectPath fileSystemRepresentation]);
@@ -109,7 +109,7 @@ int main (int argc, const char * argv[])
         ILError("Could not read the contents of the source bundle %s due to error:\n%s", [bundlePath fileSystemRepresentation], [[err description] UTF8String]);
     
     for (NSURL* item in content) {
-        if ([[item lastPathComponent] isEqualToString:@"Build.plist"])
+        if ([[item pathExtension] isEqualToString:@"picbuild"])
             continue;
         
         NSString* type = [ILImageSource loadableTypeIdentifierForURL:item];
