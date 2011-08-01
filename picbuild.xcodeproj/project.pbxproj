@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150E7B6113E6993C0033F5E1 /* ILImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E7B6013E6993C0033F5E1 /* ILImage.m */; };
+		150E7B6313E6997B0033F5E1 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150E7B6213E6997B0033F5E1 /* Quartz.framework */; };
+		150E7B6713E6A0000033F5E1 /* ILImageSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 150E7B6613E6A0000033F5E1 /* ILImageSource.m */; };
+		150E7B6B13E6A74C0033F5E1 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150E7B6A13E6A74C0033F5E1 /* ApplicationServices.framework */; };
+		150E7B6D13E6A8480033F5E1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150E7B6C13E6A8480033F5E1 /* CoreServices.framework */; };
+		1535EA1713E707A6005F75D5 /* ILImageDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 1535EA1613E707A6005F75D5 /* ILImageDestination.m */; };
+		15AF6E4F13E726D700987380 /* libBasics-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15AF6E4913E726C800987380 /* libBasics-Mac.a */; };
+		15B6E5F513E5C68B00A2A6B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B6E5F413E5C68B00A2A6B5 /* Foundation.framework */; };
+		15B6E5F813E5C68B00A2A6B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6E5F713E5C68B00A2A6B5 /* main.m */; };
+		15B6E5FC13E5C68B00A2A6B5 /* picbuild.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 15B6E5FB13E5C68B00A2A6B5 /* picbuild.1 */; };
+		15B6E61613E5CB0000A2A6B5 /* PicbuildProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6E61513E5CB0000A2A6B5 /* PicbuildProject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15AF6E4813E726C800987380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15AF6E4013E726C800987380 /* Basics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "Basics (Mac)";
+		};
+		15AF6E4A13E726C800987380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15AF6E4013E726C800987380 /* Basics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 150F250512CD082300389F22;
+			remoteInfo = "Basics (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15B6E5EE13E5C68B00A2A6B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				15B6E5FC13E5C68B00A2A6B5 /* picbuild.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		150E7B5F13E6993C0033F5E1 /* ILImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILImage.h; sourceTree = "<group>"; };
+		150E7B6013E6993C0033F5E1 /* ILImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILImage.m; sourceTree = "<group>"; };
+		150E7B6213E6997B0033F5E1 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		150E7B6513E6A0000033F5E1 /* ILImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILImageSource.h; sourceTree = "<group>"; };
+		150E7B6613E6A0000033F5E1 /* ILImageSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILImageSource.m; sourceTree = "<group>"; };
+		150E7B6A13E6A74C0033F5E1 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		150E7B6C13E6A8480033F5E1 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		1535EA1513E707A6005F75D5 /* ILImageDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILImageDestination.h; sourceTree = "<group>"; };
+		1535EA1613E707A6005F75D5 /* ILImageDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILImageDestination.m; sourceTree = "<group>"; };
+		15AF6E4013E726C800987380 /* Basics.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Basics.xcodeproj; path = LabsFoundation.line/Foundation/Basics/Basics.xcodeproj; sourceTree = "<group>"; };
+		15B6E5F013E5C68B00A2A6B5 /* picbuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = picbuild; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B6E5F413E5C68B00A2A6B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		15B6E5F713E5C68B00A2A6B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15B6E5FA13E5C68B00A2A6B5 /* picbuild-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "picbuild-Prefix.pch"; sourceTree = "<group>"; };
+		15B6E5FB13E5C68B00A2A6B5 /* picbuild.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = picbuild.1; sourceTree = "<group>"; };
+		15B6E61413E5CB0000A2A6B5 /* PicbuildProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicbuildProject.h; sourceTree = "<group>"; };
+		15B6E61513E5CB0000A2A6B5 /* PicbuildProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicbuildProject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B6E5ED13E5C68B00A2A6B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15AF6E4F13E726D700987380 /* libBasics-Mac.a in Frameworks */,
+				150E7B6D13E6A8480033F5E1 /* CoreServices.framework in Frameworks */,
+				150E7B6B13E6A74C0033F5E1 /* ApplicationServices.framework in Frameworks */,
+				150E7B6313E6997B0033F5E1 /* Quartz.framework in Frameworks */,
+				15B6E5F513E5C68B00A2A6B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15AF6E4113E726C800987380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15AF6E4913E726C800987380 /* libBasics-Mac.a */,
+				15AF6E4B13E726C800987380 /* libBasics-iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B6E5E513E5C68A00A2A6B5 = {
+			isa = PBXGroup;
+			children = (
+				15B6E5F613E5C68B00A2A6B5 /* picbuild */,
+				15B6E5F313E5C68B00A2A6B5 /* Frameworks */,
+				15B6E5F113E5C68B00A2A6B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15B6E5F113E5C68B00A2A6B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B6E5F013E5C68B00A2A6B5 /* picbuild */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B6E5F313E5C68B00A2A6B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15AF6E4013E726C800987380 /* Basics.xcodeproj */,
+				150E7B6C13E6A8480033F5E1 /* CoreServices.framework */,
+				150E7B6A13E6A74C0033F5E1 /* ApplicationServices.framework */,
+				150E7B6213E6997B0033F5E1 /* Quartz.framework */,
+				15B6E5F413E5C68B00A2A6B5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15B6E5F613E5C68B00A2A6B5 /* picbuild */ = {
+			isa = PBXGroup;
+			children = (
+				15B6E61413E5CB0000A2A6B5 /* PicbuildProject.h */,
+				15B6E61513E5CB0000A2A6B5 /* PicbuildProject.m */,
+				15B6E5F713E5C68B00A2A6B5 /* main.m */,
+				15B6E5FB13E5C68B00A2A6B5 /* picbuild.1 */,
+				15B6E5F913E5C68B00A2A6B5 /* Supporting Files */,
+				150E7B5F13E6993C0033F5E1 /* ILImage.h */,
+				150E7B6013E6993C0033F5E1 /* ILImage.m */,
+				150E7B6513E6A0000033F5E1 /* ILImageSource.h */,
+				150E7B6613E6A0000033F5E1 /* ILImageSource.m */,
+				1535EA1513E707A6005F75D5 /* ILImageDestination.h */,
+				1535EA1613E707A6005F75D5 /* ILImageDestination.m */,
+			);
+			path = picbuild;
+			sourceTree = "<group>";
+		};
+		15B6E5F913E5C68B00A2A6B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15B6E5FA13E5C68B00A2A6B5 /* picbuild-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B6E5EF13E5C68B00A2A6B5 /* picbuild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B6E5FF13E5C68B00A2A6B5 /* Build configuration list for PBXNativeTarget "picbuild" */;
+			buildPhases = (
+				15B6E5EC13E5C68B00A2A6B5 /* Sources */,
+				15B6E5ED13E5C68B00A2A6B5 /* Frameworks */,
+				15B6E5EE13E5C68B00A2A6B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picbuild;
+			productName = picbuild;
+			productReference = 15B6E5F013E5C68B00A2A6B5 /* picbuild */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B6E5E713E5C68A00A2A6B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 15B6E5EA13E5C68A00A2A6B5 /* Build configuration list for PBXProject "picbuild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15B6E5E513E5C68A00A2A6B5;
+			productRefGroup = 15B6E5F113E5C68B00A2A6B5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15AF6E4113E726C800987380 /* Products */;
+					ProjectRef = 15AF6E4013E726C800987380 /* Basics.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				15B6E5EF13E5C68B00A2A6B5 /* picbuild */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		15AF6E4913E726C800987380 /* libBasics-Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBasics-Mac.a";
+			remoteRef = 15AF6E4813E726C800987380 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		15AF6E4B13E726C800987380 /* libBasics-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libBasics-iOS.a";
+			remoteRef = 15AF6E4A13E726C800987380 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B6E5EC13E5C68B00A2A6B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B6E5F813E5C68B00A2A6B5 /* main.m in Sources */,
+				15B6E61613E5CB0000A2A6B5 /* PicbuildProject.m in Sources */,
+				150E7B6113E6993C0033F5E1 /* ILImage.m in Sources */,
+				150E7B6713E6A0000033F5E1 /* ILImageSource.m in Sources */,
+				1535EA1713E707A6005F75D5 /* ILImageDestination.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15B6E5FD13E5C68B00A2A6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		15B6E5FE13E5C68B00A2A6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		15B6E60013E5C68B00A2A6B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picbuild/picbuild-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$SRCROOT\"/LabsFoundation.line";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15B6E60113E5C68B00A2A6B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "picbuild/picbuild-Prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$SRCROOT\"/LabsFoundation.line";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B6E5EA13E5C68A00A2A6B5 /* Build configuration list for PBXProject "picbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B6E5FD13E5C68B00A2A6B5 /* Debug */,
+				15B6E5FE13E5C68B00A2A6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B6E5FF13E5C68B00A2A6B5 /* Build configuration list for PBXNativeTarget "picbuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B6E60013E5C68B00A2A6B5 /* Debug */,
+				15B6E60113E5C68B00A2A6B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15B6E5E713E5C68A00A2A6B5 /* Project object */;
+}
